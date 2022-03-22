@@ -4,6 +4,7 @@ def print_formatted(number):
     result = list()
     for i in range(number):
         result.append(i+1)
+    hexa_format(number)
     print(result)
 
 def hexa_format(number):
@@ -21,4 +22,3 @@ def hexa_format(number):
 if __name__ == '__main__':
     n = int(input())
     print_formatted(n)
-    hexa_format(n)
