@@ -7,7 +7,7 @@ def print_formatted(number):
     hexa_format(number)
     print(result)
 
-def hexa_format(number):
+def binary_format(number):
     str = ""
     while number != 0:
         if number % 2 == 1:
